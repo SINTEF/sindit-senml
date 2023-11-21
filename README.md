@@ -1,4 +1,4 @@
-# SINDIT SenMl
+# SINDIT SenML
 
 Rust implementation of the [SenML RFC8428](https://www.rfc-editor.org/rfc/rfc8428) proposed standard.
 

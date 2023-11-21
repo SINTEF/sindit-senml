@@ -25,10 +25,10 @@ const TIME_THRESHOLD: f64 = 268_435_456.0;
 /// # Examples
 /// ```
 /// use chrono::{DateTime, Utc};
-/// use sindit_senml::time::parse_time;
+/// use sindit_senml::time::convert_senml_time;
 /// let now = Utc::now();
 /// let relative_time = -10.0;
-/// let result = parse_time(relative_time, now);
+/// let result = convert_senml_time(relative_time, now);
 /// assert!(result.is_some());
 /// ```
 pub fn convert_senml_time(seconds: f64, now: DateTime<Utc>) -> Option<DateTime<Utc>> {
